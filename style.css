@@ -1,0 +1,517 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* header */
+header{
+    background: rgba(255, 144, 14, 0.1);
+    padding-top: 50px;
+    max-width:1920px;
+    margin: 0px auto;
+    margin-bottom: 85px;
+
+}
+
+/* banner */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 102px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+
+}
+
+nav ul li{
+    list-style: none;
+
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.banner-title{
+    color: rgb(19, 19, 19);
+font-size: 45px;
+font-weight: 700;
+line-height: 53px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* brand */
+
+.brand{
+   
+    max-width: 862px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.brand-title{
+    color: rgb(19, 19, 19);
+font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.brand-des{
+    margin: 32px 0;
+    color: rgb(114, 114, 114);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.btn{
+    border-radius: 8px;
+    border: none;
+    padding: 20px 25px;
+background: rgb(255, 144, 14);
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.brand-img img{
+    /* width: 100%; */
+
+    margin: 0 auto;
+}
+
+.brand-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+/* quick-list section  */
+.quick-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 73px;
+    margin-bottom: 130px;
+}
+
+span{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+span:nth-child(1){
+    color: #727272;
+    font-weight: 500;
+}
+span:nth-child(2){
+    color: #131313;
+}
+span:nth-child(3){
+    color: #FF900E;
+}
+
+.list-text{
+    max-width: 537px;
+}
+
+.list-title{
+    margin-bottom: 24px;
+}
+
+.list-des{
+    color: rgb(114, 114, 114);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 32px;
+}
+
+.list-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+
+    /* feature section  */
+    .feature{
+        display: flex;
+        gap: 146px;
+        max-width: 1400px;
+        margin: 0 auto;
+        margin-bottom: 130px;
+    }
+    .feature-title{
+        color: rgb(19, 19, 19);
+font-size: 45px;
+font-weight: 700;
+line-height: 53px;
+letter-spacing: 0%;
+text-align: left;
+border-left: 5px solid  rgb(255, 144, 14);;
+padding-left: 10px;
+margin-bottom: 24px;
+    }
+
+    .feature-des{
+        color: rgb(114, 114, 114);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 30px;
+    }
+
+    .feature-card{
+        padding: 30px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+    }
+
+    .feature-card h3{
+        color: rgb(19, 19, 19);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 10px;
+
+    }
+    .feature-card p{
+        color: rgb(114, 114, 114);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+    }
+    .feature-badge{
+        border-radius: 8px;
+        position: relative;
+        z-index: 10;
+background: rgb(255, 144, 14);
+color: rgb(255, 255, 255);
+max-width: 342px;
+margin-left: -92px;
+margin-top: -100px;
+padding: 42px 45px;
+font-weight: bold;
+font-size: 35px;
+display: flex;
+justify-content: center;
+/* align-items: center; */
+    }
+
+/* fact section */
+.fact{
+    margin: 0 auto;
+    margin-bottom: 180px;
+}
+.fact h2{
+    color: rgb(19, 19, 19);
+font-size: 45px;
+font-weight: 700;
+line-height: 53px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 24px;
+margin-left: 30px;
+}
+
+.fact>p{
+    margin-left: 30px;
+    color: rgb(114, 114, 114);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 60px;
+max-width: 542px;
+}
+
+.fact-card-container{
+    display: grid;
+grid-template-columns: repeat(4,1fr);
+    /* gap: 40px; */
+    /* justify-content: space-around; */
+}
+
+
+.fact-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fact-card-more{
+    padding: 35px 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+border: 1px solid rgb(255, 144, 14);
+border-radius: 8px;
+}
+
+.fact-num{
+    color: rgb(66, 66, 66);
+font-size: 45px;
+font-weight: 600;
+line-height: 53px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.fact-title{
+    color: rgb(114, 114, 114);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* sponspors section  */
+
+.spon{
+    margin-bottom: 130px;
+}
+
+.spon-text{
+    margin-bottom: 50px;
+}
+
+.spon-text h2{
+    color: rgb(19, 19, 19);
+font-size: 45px;
+font-weight: 700;
+line-height: 53px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+
+.spon-text p{
+    color: rgb(114, 114, 114);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+max-width: 542px;
+margin: 0 auto;
+}
+
+.spon-icon-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    place-items: center;
+
+}
+
+.spon-icon-container img{
+    filter: grayscale(100%);
+}
+
+
+footer{
+    /* max-width: 1400px; */
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 8px;
+
+background: rgb(255, 244, 231);
+color: rgb(66, 66, 66);
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+padding: 40px;
+}
+
+/* media query  */
+
+/* mobile  */
+
+@media screen and (max-width:575px) {
+    
+    /* header  */
+    /* banner */
+    .banner,nav ul {
+        flex-direction: column;
+    }
+
+    .brand-img img{
+        width: 90%;
+    }
+
+    .brand-des{
+        padding: 10px;
+    }
+
+.brand-title{
+    font-size: 60px;
+}
+
+/* quick list  */
+
+.quick-list{
+    flex-direction: column-reverse;
+}
+
+.quick-list img{
+    width: 90%;
+}
+.list-img{
+    grid-template-columns: repeat(1,1fr);
+    place-items: center;
+}
+
+.list-text{
+    text-align: center;
+}
+
+    /* feature section  */
+    .feature{
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .feature-img img{
+        width: 100%;
+    }
+
+    .feature-badge{
+        margin: 0 auto;
+        padding: 10px;
+        font-size: 20px;
+        width: 50%;
+        position: absolute;
+        top: 0;
+    }
+
+    .feature-img{
+        position:relative;
+    }
+
+    /* fact section */
+    .fact-card-container{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+            /* sponspors section */
+            .spon-icon-container{
+                grid-template-columns: repeat(1,1fr);
+                gap: 20px;
+            }
+   
+}
+
+/* table  */
+
+@media  screen and (min-width:576px) and (max-width:992px) {
+    .banner,nav ul {
+        flex-direction: column;
+    }
+
+    .brand-img img{
+        width: 90%;
+    }
+
+    .brand-des{
+        padding: 10px;
+    }
+
+    .list-img{
+        place-items: center;
+    }
+
+    .quick-list{
+        flex-direction: column;
+    }
+
+    /* feature section  */
+    .feature{
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .feature-img img{
+        width: 100%;
+    }
+
+    .feature-badge{
+        margin: 0 auto;
+        padding: 10px;
+        font-size: 20px;
+        width: 50%;
+        position: absolute;
+        top: 0;
+    }
+
+    .feature-img{
+        position:relative;
+    }
+
+        /* fact section */
+        .fact-card-container{
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+        }
+
+        /* sponspors section */
+        .spon-icon-container{
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+        }
+}
+
+
+
+
