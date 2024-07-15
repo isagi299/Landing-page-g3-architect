@@ -395,7 +395,7 @@ padding: 40px;
     }
 
 .brand-title{
-    font-size: 60px;
+    font-size: 50px;
 }
 
 /* quick list  */
@@ -450,7 +450,10 @@ padding: 40px;
                 grid-template-columns: repeat(1,1fr);
                 gap: 20px;
             }
-   
+   /* footer  */
+   footer{
+    padding: 10px;
+   }
 }
 
 /* table  */
@@ -469,6 +472,7 @@ padding: 40px;
     }
 
     .list-img{
+        grid-template-columns: 1fr;
         place-items: center;
     }
 
